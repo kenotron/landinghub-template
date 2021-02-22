@@ -1,6 +1,6 @@
 {
   "yaml.schemas": {
-    "./landinghub.schema.json": ["/.landinghub/index.yaml"]
+    "./landinghub.schema.json": ["/.landinghub/*.yaml"]
   },
   "yaml.validate": true
 }

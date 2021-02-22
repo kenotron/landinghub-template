@@ -6,7 +6,7 @@
   "type": "object",
   "properties": {
     "title": {
-      "description": "To be stuffed inside <title> tag",
+      "description": "<title> tag content",
       "type": "string"
     },
     "keywords": {
