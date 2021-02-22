@@ -1,5 +1,6 @@
 title: test
 keywords: landing page
+color: blue
 sections:
   # - nav: 
   #   logo: |
@@ -22,7 +23,7 @@ sections:
     image: https://dummyimage.com/720x600
     actions: 
       - primary: Button
-        href: /signup
+        link: /signup
       - secondary: Button
-        href: /about
+        link: /about
 

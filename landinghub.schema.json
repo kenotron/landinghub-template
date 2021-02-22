@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://example.com/product.schema.json",
-  "title": "Product",
-  "description": "A product in the catalog",
+  "title": "LandingHub Page",
+  "description": "A landinghub.io page",
   "type": "object",
   "properties": {
     "title": {
@@ -12,6 +12,12 @@
     "keywords": {
       "description": "Keywords for SEO",
       "type": "string"
+    },
+
+    "color": {
+      "description": "Primary color",
+      "type": "string",
+      "oneOf": [{ "const": "blue" }, { "const": "red" }]
     },
     "sections": {
       "description": "A collection of sections or blocks that makes up the page",
@@ -27,22 +33,46 @@
               },
               "heading": {
                 "type": "string"
-              }
-            },
-            "required": ["hero", "header"]
-          },
-
-          {
-            "type": "object",
-            "properties": {
-              "hero": {
-                "const": 2
               },
-              "header": {
+              "subheading": {
+                "type": "string"
+              },
+              "actions": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "primary": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["primary", "link"]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "secondary": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["secondary", "link"]
+                    }
+                  ]
+                }
+              },
+              "image": {
                 "type": "string"
               }
             },
-            "required": ["hero", "header"]
+            "required": ["hero", "heading", "subheading"]
           },
 
           {
@@ -58,5 +88,5 @@
       }
     }
   },
-  "required": ["title", "sections"]
+  "required": ["title", "sections", "color"]
 }
