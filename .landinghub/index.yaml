@@ -1,0 +1,28 @@
+title: test
+keywords: landing page
+sections:
+  # - nav: 
+  #   logo: |
+  #       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+  #         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+  #       </svg>
+  #   branding: TailBlocks
+  #   links:
+  #     - label: First Link
+  #       link: /first-link
+  #     - label: Second Link
+  #       link: /second-link
+  #   actions:
+  #     - primary: Button
+  #       href: /signup
+
+  - hero: a
+    heading: Before they sold outreadymade gluten
+    subheading: Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
+    image: https://dummyimage.com/720x600
+    actions: 
+      - primary: Button
+        href: /signup
+      - secondary: Button
+        href: /about
+
