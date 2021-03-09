@@ -1,29 +1,109 @@
+# yaml-language-server: $schema=file:///workspace/landinghub-template/landinghub.schema.json
 title: test
 keywords: landing page
 color: blue
+social: 
+  facebook: test
+  twitter: test
+  instagram: test
 sections:
-  # - nav: 
-  #   logo: |
-  #       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
-  #         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-  #       </svg>
-  #   branding: TailBlocks
-  #   links:
-  #     - label: First Link
-  #       link: /first-link
-  #     - label: Second Link
-  #       link: /second-link
-  #   actions:
-  #     - primary: Button
-  #       href: /signup
+  - header: a
+    logo: |
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+    branding: TailBlocks
+    links:
+      - label: First Link
+        link: /first-link
+      - label: Second Link
+        link: /second-link
+    actions:
+      - label: Button
+        link: /signup
 
   - hero: a
-    heading: Before they sold outreadymade gluten
+    heading: Before they adsfadsfadsfasdfa adsf adsf asdfsold outreadymade gluten
     subheading: Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
     image: https://dummyimage.com/720x600
-    actions: 
-      - primary: Button
+    actions:
+      - primary: Buasdfadsftton
         link: /signup
-      - secondary: Button
+      - secondary: B asdfads fadsutton
         link: /about
+
+  - feature: a
+    heading: |
+      Raw Denim Heirlodgsdfsdfm Man 
+      Braid Selfies Wayfadsfsdfdsfrers
+    items:
+      - heading: Shootsdfsdfsdsdfsdfdsffing Stars
+        content: Blue bottasdfsdfsfdsdfle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+        link: /signup
+        icon: blah
+      - heading: The Catalyzer
+        content: Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+        link: /signup
+        icon: blah
+      - heading: Neptune
+        content: Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+        link: /signup
+        icon: blah
+
+  - pricing: a
+    heading: Pricing
+    subheading: Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
+    items:
+      - heading: START
+        pricePerMonth: Free
+        items:
+          - Vexillologist pitchfork
+          - Tumeric plaid portland
+          - Mixtape chillwave tumeric
+        action: Button
+        link: /free
+        content: Literally you probably haven't heard of them jean shorts.
+
+      - heading: PRO
+        highlight: Podsasdfadsf
+        pricePerMonth: 38
+        items:
+          - Vexillologist pitchfork
+          - Tumeric plaid portland
+          - Mixtape chillwave tumeric
+        action: Button
+        link: /free
+        content: Literally you probably haven't heard of them jean shorts.
+      
+      - heading: BUSINESS
+        pricePerMonth: 56
+        items:
+          - Vexillologist pitchfork
+          - Tumeric plaid portland
+          - Mixtape chillwave tumeric
+        action: Button
+        link: /free
+        content: Literally you probably haven't heard of them jean shorts.
+
+      - heading: ENTERPRISE
+        pricePerMonth: 72
+        items:
+          - Vexillologist pitchfork
+          - Tumeric plaid portland
+          - Mixtape chillwave tumeric
+        action: Button
+        link: /free
+        content: Literally you probably haven't heard of them jean shorts.
+
+  - contact: a
+    heading: Contact fdsUs
+    subheading: Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.
+    action:
+      submit: Button
+      link: /signup
+    email: example@emfdsdsl.com
+    address1: 49 Smith St.
+    address2: Saint Cloadsfadfadsfadfasdfasdfadsfud, MN 56301
+
+
 
