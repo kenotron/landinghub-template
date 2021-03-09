@@ -77,12 +77,24 @@
 
           {
             "type": "object",
+            "description": "Header section, style A",
             "properties": {
               "header": {
                 "type": "string"
               }
             },
             "required": ["header"]
+          },
+
+          {
+            "type": "object",
+            "description": "Feature section, style A",
+            "properties": {
+              "feature": {
+                "const": "a"
+              }
+            },
+            "required": ["feature"]
           }
         ]
       }
