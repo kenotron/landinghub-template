@@ -80,10 +80,16 @@
             "description": "Header section, style A",
             "properties": {
               "header": {
+                "const": "a"
+              },
+              "branding": {
+                "type": "string"
+              },
+              "url": {
                 "type": "string"
               }
             },
-            "required": ["header"]
+            "required": ["header", "branding"]
           },
 
           {
@@ -95,6 +101,28 @@
               }
             },
             "required": ["feature"]
+          },
+
+          {
+            "type": "object",
+            "description": "Pricing section, style A",
+            "properties": {
+              "pricing": {
+                "type": "string"
+              }
+            },
+            "required": ["pricing"]
+          },
+
+          {
+            "type": "object",
+            "description": "Contact section, style A",
+            "properties": {
+              "contact": {
+                "type": "string"
+              }
+            },
+            "required": ["contact"]
           }
         ]
       }
