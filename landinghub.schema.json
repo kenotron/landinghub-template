@@ -13,11 +13,18 @@
       "description": "Keywords for SEO",
       "type": "string"
     },
-
     "theme": {
       "description": "Theme color",
       "type": "string",
-      "oneOf": [{ "const": "blue" }, { "const": "red" }, { "const": "yellow" }]
+      "oneOf": [
+        { "const": "indigo" },
+        { "const": "blue" },
+        { "const": "red" },
+        { "const": "yellow" },
+        { "const": "purple" },
+        { "const": "pink" },
+        { "const": "green" }
+      ]
     },
     "sections": {
       "description": "A collection of sections or blocks that makes up the page",
