@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=file:///workspace/landinghub-template/landinghub.schema.json
 title: test
 keywords: landing page
-color: blue
+theme: yellow
 social: 
   facebook: test
   twitter: test

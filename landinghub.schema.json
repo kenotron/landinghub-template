@@ -14,10 +14,10 @@
       "type": "string"
     },
 
-    "color": {
-      "description": "Primary color",
+    "theme": {
+      "description": "Theme color",
       "type": "string",
-      "oneOf": [{ "const": "blue" }, { "const": "red" }]
+      "oneOf": [{ "const": "blue" }, { "const": "red" }, { "const": "yellow" }]
     },
     "sections": {
       "description": "A collection of sections or blocks that makes up the page",
@@ -128,5 +128,5 @@
       }
     }
   },
-  "required": ["title", "sections", "color"]
+  "required": ["title", "sections", "theme"]
 }
