@@ -119,10 +119,21 @@
             "description": "Contact section, style A",
             "properties": {
               "contact": {
-                "type": "string"
+                "const": "a"
               }
             },
             "required": ["contact"]
+          },
+
+          {
+            "type": "object",
+            "description": "Footer section, style A",
+            "properties": {
+              "footer": {
+                "const": "a"
+              }
+            },
+            "required": ["footer"]
           }
         ]
       }
